@@ -65,6 +65,12 @@ float("3.14") # konvertējam daļskaitli uz tekstu
 
 Izmantoti pārsvarā lai veikt matemātiskas operācijas.
 ```python
+x = 747
+y = -15
+
+pi = 3.141592
+fi = 1.6180339
+
 a = 5 + 7
 b = 3.14 - 2.71
 c = 6 * 10
@@ -108,6 +114,12 @@ ir_para_skaitlis = a % 2 == 1
 ### Konvertācija 
 Operācijas, kas ir iespējamas ar vienu datu tipu varētu būt neloģiskas un neiespējamas ar citu.
 
+Lai konvertēt tipu izmanto funkcijas `str`, `int`,  `float`, `bool`, 
+```python
+str(12345) # konvertējam skaitli uz tekstu
+int("1188") # konvertējam tekstu uz skaitli
+float("3.14") # konvertējam daļskaitli uz tekstu
+```
 
 ### 
 
