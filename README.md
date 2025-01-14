@@ -47,6 +47,20 @@ Dati tiek glabāti atmiņā optimizēta veidā, tāpēc datiem varētu būt vair
 - `float`, ir dalīta skaitļa tips un ļauj arī veikt matematiskas operācijas 
 - `bool`, var saturēt tikai `True` vai `False`
 
+Lai pārbaudīt tipu izmanto funkciju `type`
+```python
+type("Šeit ir teksts") # string
+type(12345) # int
+type(3.14) # float
+```
+
+Lai konvertēt tipu izmanto funkcijas `str`, `int`,  `float`, `bool`, 
+```python
+str(12345) # konvertējam skaitli uz tekstu
+int("1188") # konvertējam tekstu uz skaitli
+float("3.14") # konvertējam daļskaitli uz tekstu
+```
+
 #### Skaitliskie mainīgie 🔟
 
 Izmantoti pārsvarā lai veikt matemātiskas operācijas.
