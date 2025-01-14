@@ -47,7 +47,7 @@ Dati tiek glabāti atmiņā optimizēta veidā, tāpēc datiem varētu būt vair
 - `float`, ir dalīta skaitļa tips un ļauj arī veikt matematiskas operācijas 
 - `bool`, var saturēt tikai `True` vai `False`
 
-#### Skaitliskie mainīgie
+#### Skaitliskie mainīgie 🔟
 
 Izmantoti pārsvarā lai veikt matemātiskas operācijas.
 ```python
@@ -63,22 +63,35 @@ a = a + 10 # palielināt `a` mainīgo uz 10
 a += a + 10 # palielināt `a` mainīgo uz 10, bet saisināta versija
 ```
 
-#### Teksta mainīgie
-
+Lai uzzināt atlikumu no dalīšanas izmanto procentu simbolu.
 ```python
-sveiciens = "Esi sveicināts!"
-vards = "Toms"
-print(sveiciens, vards) # Tiek drukāts "Esi sveicināts! Toms"
+a = 5
+atlikums = a % 2 # a ir vienads 1
 ```
 
-#### Būla mainīgie 👍/
+#### Teksta mainīgie 💬
+Teksta mainīgiem ir plašs pielietojums.
+
 ```python
-sveiciens = "Esi sveicināts!"
-latvijas_regionu_skaits = 4
-eur_to_usd = 1.02
+teksts = "Viena rinda"
+
+ari_teksts = """
+Vairākas rindas
+"""
+
+tuks_teksts = ""
 ```
 
-### Konvertācija
+#### Būla mainīgie 👍/👎
+Var saturēt tikai `True` vai `False`.
+
+```python
+ir_sarkans = False
+ir_pozitivs = a > 0
+ir_para_skaitlis = a % 2 == 1
+```
+
+### Konvertācija 
 Operācijas, kas ir iespējamas ar vienu datu tipu varētu būt neloģiskas un neiespējamas ar citu.
 
 
