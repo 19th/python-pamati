@@ -26,7 +26,7 @@ vards = input("Ievadi savu vārdu: ")
 
 Dati no konsolēs nāk vienmēr ar tipu `string` (teksts), bet ja nepieciešams iegūt no lietotāja ciparu - to nepieciešams konvertēt.
 ```python
-vecums = input("Ievadi savu vecumu: ")
+vecums = int(input("Ievadi savu vecumu: "))
 ```
 
 ## Mainīgie
