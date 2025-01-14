@@ -1,7 +1,7 @@
 # Python pamati
 
-## Ievads/izvads
-### Izvads
+## Ievads/izvads ↔️
+### Izvads ➡️
 Lai izdrukāt datus konsolē, tiek izmantota `print` iebuvēta funkcija.
 ```python
 print("Šodien ir jauka diena")
@@ -18,7 +18,7 @@ vards = "Aleksejs"
 print(f"Sveiks, {vards}!") # Sveiks, Aleksejs
 ```
 
-### Ievads
+### Ievads ⬅️
 Lai konsolē iegūt datus no lietotāja izmanto iebūvētu komandu `input`.
 ```python
 vards = input("Ievadi savu vārdu: ")
@@ -29,7 +29,7 @@ Dati no konsolēs nāk vienmēr ar tipu `string` (teksts), bet ja nepieciešams 
 vecums = int(input("Ievadi savu vecumu: "))
 ```
 
-## Mainīgie
+## Mainīgie 💾
 Mainīgie tiek izmantoti lai glabāt datus un veikt operācijas ar tiem. Dati varētu būt vairākos tipos: teksts, skaitlis, daļskaitlis, būla vērtība (jā/nē) un citi. Katram mainīgam ir nosaukums. Izveidot (definēt) mainīgo var norādot to vārdu un sākotnēju vērtību. Veicot operācijas ar mainīgo tiek izmantots tas nosaukums.
 
 ### Veidošana (inicializācija, definēšana)
@@ -45,12 +45,22 @@ Dati tiek glabāti atmiņā optimizēta veidā, tāpēc datiem varētu būt vair
 - `string`, ir teksta tips un ļauj salimēt kopā, griezt, atkārtot un citas operācijas
 - `int`, ir vesela skaitļa tips un ļauj veikt matematiskas operācijas
 - `float`, ir dalīta skaitļa tips un ļauj arī veikt matematiskas operācijas 
+- `bool`, var saturēt tikai `True` vai `False`
 
 #### Skaitliskie mainīgie
+
+Izmantoti pārsvarā lai veikt matemātiskas operācijas.
 ```python
-sveiciens = "Esi sveicināts!"
-latvijas_regionu_skaits = 4
-eur_to_usd = 1.02
+a = 5 + 7
+b = 3.14 - 2.71
+c = 6 * 10
+d = 36 / 6
+```
+
+Lai palielināt mainīgo var izmantot pilnu vai saisināto konstrukciju.
+```python
+a = a + 10 # palielināt `a` mainīgo uz 10
+a += a + 10 # palielināt `a` mainīgo uz 10, bet saisināta versija
 ```
 
 #### Teksta mainīgie
@@ -61,7 +71,7 @@ vards = "Toms"
 print(sveiciens, vards) # Tiek drukāts "Esi sveicināts! Toms"
 ```
 
-#### Būla mainīgie
+#### Būla mainīgie 👍/
 ```python
 sveiciens = "Esi sveicināts!"
 latvijas_regionu_skaits = 4
@@ -75,10 +85,10 @@ Operācijas, kas ir iespējamas ar vienu datu tipu varētu būt neloģiskas un n
 ### 
 
 
-## Nosacījumi (zarošana)
+## Nosacījumi (zarošana) 🚦
 
 
-## Cikli
+## Cikli 🔁
 
 ### For cikls
 
