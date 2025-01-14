@@ -32,7 +32,7 @@ vecums = int(input("Ievadi savu vecumu: "))
 ## Mainīgie
 Mainīgie tiek izmantoti lai glabāt datus un veikt operācijas ar tiem. Dati varētu būt vairākos tipos: teksts, skaitlis, daļskaitlis, būla vērtība (jā/nē) un citi. Katram mainīgam ir nosaukums. Izveidot (definēt) mainīgo var norādot to vārdu un sākotnēju vērtību. Veicot operācijas ar mainīgo tiek izmantots tas nosaukums.
 
-### Veidošana (inicializācija, veidošana)
+### Veidošana (inicializācija, definēšana)
 Veidošana notiek norādot nosaukum, vienadības zīmi un vērtību. Kad mainīgais ir izveidots, to var izmantot zemāk kodā.
 ```python
 sveiciens = "Esi sveicināts!"
