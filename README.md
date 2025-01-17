@@ -128,8 +128,27 @@ float("3.14") # konvertējam daļskaitli uz tekstu
 
 
 ## Cikli 🔁
+Ciklus izmantoto lai atkārto kodu vairākas reizes. "For" cikls ir vairāk domāts izmantošanai, kad ir zinams cik reizes veikt atkārtojums, bet "while" izmanto kad ir nosacījums kurš nosaka atkārtojumu reizes.
 
 ### For cikls
+Atkārtot noteiktu reižu skaitu.
+```python
+for indeks in range(6):
+  print(indeks) # tiks izdrukāts 0 1 2 3 4 5 6
+```
+
+Atkārtot priekš katrā simbola tekstā
+```python
+teksts = "Sveiki!"
+for simbols in teksts:
+  print(simbols) # tiks izdrukāts S v e i k i !
+```
+
+Atkārtot noteiktu reižu skaitu, bet sākt indeksu no divnieka
+```python
+for indeks in range(2, 6):
+  print(indeks) # tiks izdrukāts 2 3 4 5 6
+```
 
 ### While cikls
 
