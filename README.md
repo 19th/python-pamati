@@ -125,7 +125,52 @@ float("3.14") # konvertējam daļskaitli uz tekstu
 
 
 ## Nosacījumi (zarošana) 🚦
+Nosacījumi parasti tiek izmantoti lai pārbaudīt datus un atkarība no rezultāta veikt vienu vai citu darbību.
+Priekš salidzināšanas var izmantot sēkojošus operātorus:
 
+```python
+a > b    # lielāks
+a < b    # mazāks
+a == b   # vienāds
+a != b   # nav vienāds
+a >= b    # lielāks vai vienāds
+a <= b    # mazāks vai vienāds
+```
+
+Pārbaudīsim "a" lielumu
+```python
+a = 15
+b = 12
+
+if a > b:
+  print("a ir lielāks")
+```
+
+**else**
+Else var būt izmantots lai palaist koda alternatīvu.
+```python
+a = 15
+b = 12
+
+if a > b:
+  print("a ir lielāks")
+else:
+  print("b ir lielāks vai skaitļi ir vienādi")
+```
+
+**elif**
+Elif var būt izmantots lai pievienot vairāk koda alternatīvas.
+```python
+a = 15
+b = 12
+
+if a > b:
+  print("a ir lielāks")
+elif a == b:
+  print("skaitļi ir vienādi")
+else:
+  print("b ir lielāks")
+```
 
 ## Cikli 🔁
 Ciklus izmantoto lai atkārto kodu vairākas reizes. "For" cikls ir vairāk domāts izmantošanai, kad ir zinams cik reizes veikt atkārtojums, bet "while" izmanto kad ir nosacījums kurš nosaka atkārtojumu reizes.
